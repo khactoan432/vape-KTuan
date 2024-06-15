@@ -8,7 +8,7 @@ const Contact = () => {
                 <img src="zalo-icon.png" alt="Zalo Icon" />
                 Nhắn tin Zalo
             </a>
-            <a href="https://m.me/7328430137180532" className="contact-button messenger">
+            <a href="https://m.me/khactuan.nguyen.58910" className="contact-button messenger">
                 <img src="messenger-icon.png" alt="Messenger Icon" />
                 Nhắn tin Messenger
             </a>

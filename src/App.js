@@ -13,6 +13,7 @@ import Pods from './pages/products/Pods';
 import Atomizer from './pages/products/Atomizer';
 import Accessories from './pages/products/Accessories';
 import Cart from './pages/cart/Cart';
+import Contact from './components/Contact/Contact';
 import { products, topProducts, brands } from './components/data/Data';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path='/cart' element={<Cart/>} />
         </Routes>
       </BrowserRouter>
+      <Contact />
     </>
   );
 }

@@ -37,7 +37,7 @@ const Contact = () => {
 
   return (
     <div className='contact-buttons'>
-      <a href='https://zalo.me/0346123453' className='contact-button gentle-wave zalo'>
+      <a href='https://zalo.me/0363622516' className='contact-button gentle-wave zalo'>
         <img src={iconZalo} alt='Zalo Icon' />
       </a>
       <a href='https://m.me/khactuan.nguyen.58910' className='contact-button gentle-wave messenger'>

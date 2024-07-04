@@ -10,6 +10,9 @@
   z-index: 999;
 }
 
+.navbar__lower {
+  padding: 12px 0px;
+}
 .mobile__menu {
   display: flex;
   flex-direction: column;
@@ -149,6 +152,11 @@
   }
   
   .header__link:hover {
+    color: var(--clr-lime);
+    border-bottom: 1px solid var(--clr-lime);
+  }
+
+  .header__link.active {
     color: var(--clr-lime);
     border-bottom: 1px solid var(--clr-lime);
   }

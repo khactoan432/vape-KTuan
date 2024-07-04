@@ -8,21 +8,40 @@
     z-index: 1000; /* Ensure it is on top of other elements */
 }
 
+.btn {
+    cursor: pointer;
+    margin:12px 0px;
+}
+
 .contact-button {
     display: flex;
     align-items: center;
-    padding: 10px 15px;
-    margin: 5px 0;
+    padding: 12px;
+    margin: 4px 0;
     text-decoration: none;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 50%;
     transition: background-color 0.3s;
 }
 
+@keyframes gentle-wave {
+    0% { transform: translateY(0); }
+    25% { transform: translateY(-2px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(2px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .gentle-wave {
+    animation: gentle-wave 1.5s ease-in-out infinite;
+  }
+  
+  
+
 .contact-button img {
     width: 24px;
+    border-radius: 50%;
     height: 24px;
-    margin-right: 10px;
 }
 
 .contact-button.zalo {
@@ -41,3 +60,65 @@
 .contact-button:hover {
     opacity: 0.8;
 }
+
+
+/* App.css */
+@keyframes ripple {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5),
+                  0 0 0 5px rgba(255, 0, 0, 0.4),
+                  0 0 0 10px rgba(255, 0, 0, 0.3),
+                  0 0 0 15px rgba(255, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgba(255, 0, 0, 0),
+                  0 0 0 20px rgba(255, 0, 0, 0),
+                  0 0 0 25px rgba(255, 0, 0, 0),
+                  0 0 0 30px rgba(255, 0, 0, 0);
+    }
+  }
+  
+  .ripple {
+    animation: ripple 1.5s infinite;
+  }
+  
+
+  /* App.css */
+@keyframes rippleZalo {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 123, 255, 0.5),
+                  0 0 0 5px rgba(0, 123, 255, 0.4),
+                  0 0 0 10px rgba(0, 123, 255, 0.3),
+                  0 0 0 15px rgba(0, 123, 255, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgba(0, 123, 255, 0),
+                  0 0 0 20px rgba(0, 123, 255, 0),
+                  0 0 0 25px rgba(0, 123, 255, 0),
+                  0 0 0 30px rgba(0, 123, 255, 0);
+    }
+  }
+  
+  @keyframes rippleMessenger {
+    0% {
+      box-shadow: 0 0 0 0 rgba(66, 103, 178, 0.5),
+                  0 0 0 5px rgba(66, 103, 178, 0.4),
+                  0 0 0 10px rgba(66, 103, 178, 0.3),
+                  0 0 0 15px rgba(66, 103, 178, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgba(66, 103, 178, 0),
+                  0 0 0 20px rgba(66, 103, 178, 0),
+                  0 0 0 25px rgba(66, 103, 178, 0),
+                  0 0 0 30px rgba(66, 103, 178, 0);
+    }
+  }
+  
+  .rippleZalo {
+    animation: rippleZalo 1.5s infinite;
+  }
+  
+  .rippleMessenger {
+    animation: rippleMessenger 1.5s infinite;
+  }
+  

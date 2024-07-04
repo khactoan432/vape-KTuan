@@ -31,6 +31,7 @@
 }
 
 .products__con {
+  border-radius: 8px;
   margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
@@ -39,6 +40,10 @@
   width: 16rem;
   background-color: var(--clr-lightdark);
   text-align: center;
+}
+
+.products__con:hover {
+  box-shadow: var(--clr-lime) 0px 1px 4px;
 }
 
 .shop__header {

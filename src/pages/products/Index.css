@@ -102,6 +102,10 @@
   text-align: center;
 }
 
+.product-desc {
+  text-align: center;
+}
+
 .product__brand,
 .product__price {
   color: var(--clr-slate);
@@ -186,6 +190,7 @@
   }
 
   .img__con {
+
     grid-area: image;
     place-self: center;
   }

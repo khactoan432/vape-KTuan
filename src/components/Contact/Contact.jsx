@@ -37,16 +37,16 @@ const Contact = () => {
 
   return (
     <div className='contact-buttons'>
-      <a href='https://zalo.me/0353846079' className='contact-button gentle-wave zalo'>
+      <a href='https://zalo.me/0346123453' className='contact-button gentle-wave zalo'>
         <img src={iconZalo} alt='Zalo Icon' />
       </a>
       <a href='https://m.me/khactuan.nguyen.58910' className='contact-button gentle-wave messenger'>
         <img src={iconMessenger} alt='Messenger Icon' />
       </a>
-      {/* <a href='tel:0353846079' className='contact-button gentle-wave phone'>
+      {/* <a href='tel:0346123453' className='contact-button gentle-wave phone'>
         <img src={iconPhone} alt='Phone Icon' />
       </a> */}
-      <a href='tel:0353846079' style={{ position: "relative", width: "48px", height: "48px" }} className='btn'>
+      <a href='tel:0346123453' style={{ position: "relative", width: "48px", height: "48px" }} className='btn'>
         <div style={rippleStyle} className='ripple'></div>
         <div style={iconStyle}>
           <img src={iconPhone} alt='Hotline' style={iconImageStyle} />

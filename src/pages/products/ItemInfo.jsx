@@ -43,7 +43,6 @@ function ItemInfo({ topProducts }) {
       <section id='home' className='back__btn container section'>
         <BButton displayText='Back' buttonClick={handleBack} icon={<FaArrowLeft />} />
       </section>
-      <Header />
       <section className='product__main-img container section'>
         <div className='img__con'>
           <img className='item__img-main' src={itemInfo.img} alt={itemInfo.id} />
